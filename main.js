@@ -682,8 +682,8 @@ ScrollTrigger.create({
     scrub:1
 
 });
-
+/*
 window.onresize = function(event)
 {
 document.location.reload(true);
-}
+}*/
