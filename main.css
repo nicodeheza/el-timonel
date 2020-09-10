@@ -1,0 +1,812 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("assets/inicio/fc.png");
+
+    font-family: 'Times New Roman', Times, serif;
+    color: #898ab0;
+    overflow-x: hidden;
+}
+
+header{
+    margin-top: 2%;
+ 
+}
+#titulo{
+    margin: auto;
+    max-width: 610px;
+
+}
+
+
+h1{
+    font-size: 72pt;
+    text-align: center;
+}
+h2{
+    font-size: 30pt;
+    text-align: right;
+}
+
+#timon{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+footer{
+    text-align: center;
+    font-size: 16pt;
+    margin-top: 3%;
+
+}
+
+@media(max-width: 575.98px) {
+
+   #titulo{
+      max-width: 440px;
+   }
+   h1{
+   font-size: 50pt;
+   }
+   h2{
+      font-size: 20pt;
+   }
+
+   #timon{
+      width: 90%;
+   }
+}
+
+@media(max-height: 450px) {
+   header{
+      margin-top: 0;
+   }
+   #titulo{
+      max-width: 350px;
+   
+   }
+   h1{
+      font-size: 40pt;
+   }
+   h2{
+      font-size: 15pt;
+   }
+
+   #timon{
+      width: 35%;
+      margin-top: 10px;
+   }
+
+   footer{
+      margin-top: 1% ;
+   }
+}
+
+#uno{
+ 
+    position: absolute;
+    top: 250%;
+    left: 0;
+    height: 110%;
+    width: 100%;
+    
+}
+
+.img-uno{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+    
+}
+
+#text-uno{
+    position: absolute;
+    bottom: 15%;
+    left: 70%;
+
+    font-size: 30pt;
+}
+
+/*#p-uno2{
+    text-align: right;
+}*/
+
+@media(max-width:768px){
+   #text-uno{
+     bottom: 15%;
+      left: 5%;
+      font-size: 22pt;
+   }
+}
+
+
+
+#dos{
+    position: absolute;
+    top: 460%;
+    left: 0;
+
+    height: 110%;
+    width: 100%;
+
+
+}
+
+.img-dos{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+}
+
+ #text-dos{
+    position: absolute;
+    bottom: 30%;
+    left: 5%;
+    width: 250px;
+
+    font-size: 30pt;
+ }
+
+ @media (max-width: 767.98px) {
+    #text-dos{
+    font-size: 22pt;
+    bottom: 12%;
+    }
+ }
+
+ @media(max-height: 450px){
+    #text-dos{
+       width: 90%;
+       font-size: 22pt;
+       bottom: 12%;
+    }
+ }
+
+
+ #tres{
+
+    position: absolute;
+    top: 1070%;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+    
+ }
+ .img-tres{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+ }
+
+ #text-tres{
+     position: absolute;
+     bottom:10% ;
+     right:5%;
+     width: 500px;
+     font-size: 30pt;
+     
+ }
+
+ #tres00{
+   object-position: -300px; 
+ }
+
+ @media(max-width:768px){
+    #text-tres{
+       font-size: 22pt;
+       bottom: 5%;
+       right: 2%;
+       width: 450px;
+    }
+ }
+
+ @media(max-width:576px){
+   #text-tres{
+      font-size: 22pt;
+      left: 1%;
+      width: 100%;
+   }
+   .img-tres{
+      object-position: -350px;
+   }
+}
+
+@media(max-width:321px){
+   #text-tres{
+      font-size: 22pt;
+     
+      bottom: 2%;
+      left: 1%;
+      width: 100%;
+   }
+}
+
+@media(max-height: 450px){
+   .img-tres{
+      object-position: 0;
+   }
+
+   #tres00{
+      object-position: -100px; 
+    }
+   
+   #text-tres{
+      font-size: 22pt;
+      width: 90%;
+      left: 2%;
+   }
+}
+ 
+
+ #cua{
+
+    position: absolute;
+    top: 1470%;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+    z-index: +1;
+    
+ }
+ .img-cua{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 150%;
+    /*width: 150%;*/
+
+    /*object-fit: cover;*/
+ }
+
+ .text-cua{
+     position: absolute;
+     top:5%;
+     left:0%;
+     width: 100%;
+     font-size: 30pt;
+     text-align: center;
+     
+ }
+
+ @media (max-width: 767.98px) {
+    .text-cua{
+       font-size: 22pt;
+    }
+ }
+
+ #cin{
+    position: absolute;
+    top: 1728%;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+  
+    
+ }
+ .img-cin{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 120%;
+   /* width: 120%;
+
+    object-fit: cover;*/
+ }
+
+ .text-cin{
+     position: absolute;
+     top:5%;
+     left:0;
+     width: 100%;
+     font-size: 30pt;
+     text-align: center;
+     
+ }
+
+ #cin01{
+     top:10%;
+ }
+
+ @media (max-width: 767.98px) {
+   .text-cin{
+      font-size: 22pt;
+   }
+ }
+   @media(max-height: 450px){
+      .text-cua {
+         font-size: 22pt;
+      }
+      .text-cin {
+         font-size: 22pt;
+      }
+   }
+
+
+ #Tsolo{
+     position: absolute;
+     left: 15%;
+     top: 2270%;
+     width: 70%;
+     height: 100%;
+     font-size: 30pt;
+ }
+
+ #seis{
+     position: absolute;
+     left: 0;
+     top: 2250%;
+     height: 100%;
+     width: 100%;
+ }
+
+ #img-seis{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+ }
+
+ #text-seis{
+    position: absolute;
+    top:5%;
+    left:2%;
+    width: 100%;
+    font-size: 30pt;
+    
+ }
+
+ @media (max-width: 767.98px) {
+   #text-seis{
+      font-size: 22pt;
+      left: 0;
+   }
+}
+
+@media (max-width: 575.98px) { 
+   #img-seis{
+      object-position: 60%;
+   }
+}
+@media(max-height: 450px){
+   #text-seis{
+      font-size: 22pt;
+     left: 2%;
+   }
+}
+
+ #siete{
+    position: absolute;
+    left: 0;
+    top: 2750%;
+    height: 100%;
+    width: 100%;
+ }
+
+ .img-siete{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+
+ }
+
+ #siete00{
+    object-position: -300px -200px; 
+  }
+
+  #text-siete{
+    position: absolute;
+    top:5%;
+    left:2%;
+    width: 100%;
+    font-size: 30pt;
+    
+ }
+
+ @media (max-width: 767.98px) {
+   #text-siete{
+      font-size: 22pt;
+      
+   }
+}
+
+@media(max-width:416px){
+   .img-siete{
+      object-position: 60%;
+   }
+}
+
+@media(max-height: 450px){
+   #siete00{
+      object-position: -100px -80px; 
+      
+    }
+
+    #text-siete{
+      font-size: 22pt;
+      top: initial;
+      bottom: 5%;
+   }
+}
+
+ #ocho{
+    position: absolute;
+    left: 0;
+    top: 3150%;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+ }
+
+ .img-ocho{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+
+ }
+
+ #text-ocho{
+    position: absolute;
+    top:15%;
+    left:2%;
+    width: 100%;
+    font-size: 30pt;
+ }
+
+ #ocho00{
+    object-position: -300px; 
+  }
+
+  @media (max-width: 767.98px) {
+   #text-ocho{
+      font-size: 22pt;
+      top:5%;
+      
+   }
+
+   .img-ocho{
+      object-position: 75%;
+   }
+}
+
+@media(max-width:420px){
+   .img-ocho{
+      object-position: 58%;
+   }
+}
+
+@media(max-height: 450px){
+   #text-ocho{
+      font-size: 22pt;
+   }
+
+}
+  #nue{
+
+    position: absolute;
+    left: 0;
+    top: 3600%;
+    height: 100%;
+    width: 100%;
+
+
+  }
+
+  .img-nue{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+
+ }
+
+ #text-nue{
+
+    position: absolute;
+    bottom:5%;
+    left:0;
+    width: 100%;
+    text-align: center;
+    font-size: 30pt;
+   
+
+ }
+
+ @media (max-width: 767.98px) {
+   #text-nue{
+      font-size: 22pt;
+      
+   }
+}
+
+@media(max-height: 450px){
+   #text-nue{
+      font-size: 22pt;
+   }
+}
+
+ #diez{
+
+    position: absolute;
+    left: 0;
+    top: 4200%;
+    height: 100%;
+    width: 100%;
+
+ }
+
+ #img-diez{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+ }
+
+ #text-diez{
+
+    position: absolute;
+    bottom:5%;
+    left:0;
+    width: 100%;
+    text-align: center;
+    font-size: 30pt;
+   
+
+ }
+
+ @media (max-width: 767.98px) {
+   #text-diez{
+      font-size: 22pt;
+      
+   }
+ }
+
+ @media(max-height: 450px){
+   #text-diez{
+      font-size: 22pt;
+   }
+}
+
+ #once{
+
+    position: absolute;
+    left: 0;
+    top: 4700%;
+    height: 100%;
+    width: 100%;
+
+ }
+
+ .img-once{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+ }
+
+ #text-once{
+
+    position: absolute;
+    bottom:5%;
+    left:0;
+    width: 100%;
+    text-align: center;
+    font-size: 30pt;
+ }
+
+ @media (max-width: 767.98px) {
+   #text-once{
+      font-size: 22pt;
+      
+   }
+ }
+
+ @media(max-height: 450px){
+   #text-once{
+      font-size: 22pt;
+   }
+}
+
+ #doce{
+
+    position: absolute;
+    left: 0;
+    top: 5300%;
+    height: 100%;
+    width: 100%;
+ }
+
+ .img-doce{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+ }
+ #text-doce{
+    position: absolute;
+    bottom:5%;
+    left:5%;
+    width: 50%;
+    text-align: left;
+    font-size: 30pt;
+ }
+#doce00{
+
+   height: 150%;
+   width: 150%;
+   object-position: 0px -400px; 
+}
+
+@media (max-width: 767.98px) {
+   #text-doce{
+      font-size: 22pt;
+      width: 90%;
+   }
+ }
+
+ @media(max-height: 450px){
+   #text-doce{
+      font-size: 22pt;
+   }
+   #doce00{
+      object-position: -100px -80px; 
+      
+    }
+
+}
+
+#trece{
+
+   position: absolute;
+    left: 0;
+    top: 5800%;
+    height: 100%;
+    width: 100%;
+
+   /* overflow: hidden;*/
+
+}
+
+#trece00{
+   position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+
+    transform-origin: 50% 2%;
+    transform: scale(2);
+
+}
+
+#text-trece{
+   position: absolute;
+   bottom:5%;
+   left:5%;
+   width: 90%;
+   text-align: center;
+   font-size: 30pt;
+
+}
+
+@media (max-width: 767.98px) {
+   #text-trece{
+      font-size: 22pt;
+   }
+ }
+
+ @media(max-height: 450px){
+   #text-trece{
+      font-size: 22pt;
+     width: 90%;
+    left: 5%;
+    
+   }
+}
+
+#final{
+   position: absolute;
+    left: 0;
+    top: 6400%;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+}
+
+#fin{
+   font-size: 60pt;
+  margin-top: 35vh;
+
+}
+
+#final a{
+   text-decoration: none;
+   color: #898ab0;
+}
+
+#final a:hover{
+   text-decoration: none;
+   color: white;
+}
+
+#ig{
+   position: absolute;
+   bottom: 5%;
+   left: 0%;
+   width: 100%;
+
+}
+ #ig img{
+    width: 20px;
+    height: 20px;
+
+ }
+ 
+ #ig:hover{
+filter: brightness(200%);
+ }
+
+ #ig p{
+    display: inline-block;
+    position: relative;
+    bottom: 5px;
+ }
