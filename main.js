@@ -682,26 +682,5 @@ ScrollTrigger.create({
     scrub:1
 
 });
-/*
-window.onresize = function(event)
-{
-document.location.reload(true);
-}
 
-var elem = document.documentElement;
-*/
-//function openFullscreen() {
-   // if (elem.requestFullscreen) {
-      //elem.requestFullscreen();
-   // } else if (elem.mozRequestFullScreen) { /* Firefox */
-   //  elem.mozRequestFullScreen();
-   // } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
-   //   elem.webkitRequestFullscreen();
-   // } else if (elem.msRequestFullscreen) { /* IE/Edge */
-   //   elem.msRequestFullscreen();
-   // }
-//  }
-/*
-  window.onscroll = function () {  
-  
-    } */
+window.onorientationchange = function() {  	window.location.reload(); };
